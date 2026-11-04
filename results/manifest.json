@@ -1,0 +1,42 @@
+{
+  "date": "2026-11-04",
+  "track": "A",
+  "python": "3.12.10",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "ortools": "9.15.6755",
+  "matplotlib": "3.11.2",
+  "instance_seed": 20261021,
+  "ga_seeds": [
+    11,
+    22,
+    33
+  ],
+  "ga": {
+    "population": 64,
+    "generations": 100,
+    "tournament": 3,
+    "elitism": 2,
+    "crossover": 0.9,
+    "mutation": 0.2
+  },
+  "gls": {
+    "cycles": 100,
+    "weighted_lambda": 0.35
+  },
+  "ortools_config": {
+    "solution_limit": 100,
+    "watchdog_s": 5,
+    "lambda_coefficient": 0.1,
+    "scale": 100
+  },
+  "cases": 90,
+  "runs": 720,
+  "failed_runs": 0,
+  "hashes": {
+    "benchmark.py": "7a66d2183c323e830fc85b56e8d471abebfc9bc633a43dbbe20b8a1529e52dc5",
+    "benchmarks\\core.py": "b13414b186bb3226c878fd3ba328f0dd72bd3a8082de685b971b2ec590e4453d",
+    "benchmarks\\map.json": "8a98d2f037b03aa814c5fda4812efd3a10c8b04f70d5cadb2277055fd72d33c0",
+    "benchmarks\\instances.json": "892e4630562efd483c899a9622da9e88a99d585e70bb1b4fa5958ce0890e8c46",
+    "SmartCart_Final_Narrow_Aisle.py": "37dc105fdb7650e03eb1cd7e08ba1985bc0403dba8eea7fb4719b5f83281c456"
+  }
+}
